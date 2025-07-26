@@ -10,7 +10,7 @@ The web site is hosted on nginx web server.
 
 The web site is working properly from the local host.
 
-The local Repo is pushed to the global repo holding URL:  git@github.com:karim392/Gym-Website.git
+The local Repo is pushed to the global repo holding URL:  https://github.com/khaled358-png/GYM.git
 
 *****************************************************************************
 Functional
@@ -51,6 +51,9 @@ MaintainabilityﾠCode should follow standard conventions and be documented.
 UsabilityﾠThe UI must be intuitive and accessible to users with disabilities.
 CompatibilityﾠMust work on latest versions of Chrome, Firefox, and Safari.
 AvailabilityﾠSystem must be available 24/7 except for scheduled
+*******************************************************************************
+System Design
+[User Browser] --> http://localhost --> [Nginx container] --> [Static Files]
 
 
 
